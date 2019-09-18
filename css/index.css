@@ -1,0 +1,118 @@
+*, ::before, ::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background: #313131;
+}
+.container {
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+
+.left-box {
+width: 50%;
+  background-image: url('../Images/city-view.jpg');
+
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+    .info-container{
+        min-width: 100%;
+        min-height: 100%;
+        background: #313131;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile img {
+        position: relative;
+        border-radius: 50%;
+        transition: all .3s;
+        margin-top: 20px;
+        filter: grayscale(4);
+    }
+    .profile img:hover{
+        border-radius: 50%;
+        /* transition: .3s cubic-bezier(.99, -.78, .33, 1.83); */
+        /* transform: scale(1.9) translateY(0%); */
+    }
+    .container-contact {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .text {
+        color: white;
+        text-align: center;
+        margin-bottom: 13px;
+    }
+    .container-contact .group-icon {
+        margin: 10px;
+    }
+    .container-contact .group-icon a {
+        background: #404040;
+        padding: 6px 10px;
+        border-radius: 18px;
+        margin-top: 16px;
+        color: white;
+    }
+    
+    .container-contact .group-icon a:hover {
+        background: #5d5d5d;
+        color: #ffffff;
+    }
+    .group-icon-container{
+        display: flex;
+        flex-direction: row;
+    }
+    .container-contact .group-icon i {
+        font-size: 28px;
+        color: #333;
+    }
+
+    @media only screen and (max-width: 600px) {
+      html, body {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    /* overflow: hidden; */
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.left-box {
+    min-height: 100%;
+}
+    }
