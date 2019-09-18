@@ -95,15 +95,15 @@ h1 {
 } */
 
 .container {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     padding: 10px;
     background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    border-radius: 50%;
+    border-radius: 6px;
     /* box-shadow: 0 4px 4px #e0e0e0; */
 }
 .profile img {
