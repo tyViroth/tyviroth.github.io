@@ -125,6 +125,7 @@ h1 {
 }
 .text {
     color: black;
+    text-align: center;
 }
 .container-contact .group-icon {
     margin: 10px;
