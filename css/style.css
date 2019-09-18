@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 html, body {
@@ -98,19 +99,16 @@ h1 {
     width: 200px;
     height: 200px;
     padding: 10px;
-    background: #fff;
-    display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
     border-radius: 6px;
-    /* box-shadow: 0 4px 4px #e0e0e0; */
 }
 .profile img {
     position: relative;
     border-radius: 50%;
     transition: all .3s;
-    box-shadow: 0 5px 4px #e0e0e0;
+    /* box-shadow: 0 5px 4px #e0e0e0; */
 }
 
 .profile img:hover{
@@ -126,9 +124,21 @@ h1 {
 .text {
     color: black;
     text-align: center;
+    margin-bottom: 13px;
 }
 .container-contact .group-icon {
     margin: 10px;
+}
+.container-contact .group-icon a {
+    background: white;
+    padding: 6px 10px;
+    border-radius: 4px;
+    margin-top: 16px;
+}
+
+.container-contact .group-icon a:hover {
+    background: #84b3f9;
+    color: #404040;
 }
 .group-icon-container{
     display: flex;
