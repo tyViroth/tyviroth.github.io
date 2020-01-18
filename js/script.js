@@ -5,6 +5,7 @@ function clock() {
         minutes = time.getMinutes(),
         seconds = time.getSeconds();
 
+
     document.querySelectorAll('#hour')[0].innerHTML = harold(hours) + ":" + harold(minutes) + ":" + harold(seconds);
 
     if (hours > 1 & hours < 11) {
