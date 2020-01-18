@@ -100,16 +100,30 @@ html, body {
     font-size: 28px;
     color: #333;
 }
-.container-contact .experience {
+.container-contact .experience-android {
+    background: #65f02378 !important;
+}
+
+.container-contact .experience-android:hover {
+    background: #65f02336 !important;
+}
+
+.container-contact .experience-flutter {
     background: #3c94aa78 !important;
 }
 
-.container-contact .experience:hover {
+.container-contact .experience-flutter:hover {
     background: #0791b7 !important;
 }
-.container-contact .experience a {
-
+.container-contact .experience-web {
+    background: #ef931978 !important;
 }
+
+.container-contact .experience-web:hover {
+    background: #ef931933 !important;
+}
+
+
 
 .container-contact .group-icon a.facebook:hover{
     background: #3C5A99;
