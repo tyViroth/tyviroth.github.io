@@ -173,6 +173,14 @@ html, body {
         align-items: center;
     }
 
+    .container-contact {
+    }
+
+    .group-icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
     .left-box {
         min-height: 100%;
     }
