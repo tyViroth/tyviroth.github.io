@@ -16,6 +16,7 @@ html, body {
     display: flex;
     flex-direction: column;
     background: #313131;
+    font-family: 'Open Sans', sans-serif;
 }
 .container {
     width: 800px;
@@ -43,10 +44,10 @@ html, body {
 
 .profile img {
     position: relative;
-    border-radius: 50%;
+    border-radius: 18%;
     transition: all .3s;
     margin-top: 20px;
-    filter: grayscale(4);
+    /* filter: grayscale(1); */
 }
 .profile img:hover{
     border-radius: 50%;
